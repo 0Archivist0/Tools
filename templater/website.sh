@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Author: Kris Tomplait
+# This script was wrote by me so what could go wrong, use at your own risk... 
+# This script is intedned to create the file structure for a website with the defualt files and folders that are normally on a website or webpage.
+# This is going to be one script in a series of scripts that autmake file structures for verious programs..
+
+
 # Perform system update
 echo "Performing system update..."
 sudo apt-get update -y && sudo apt-get upgrade -y &> /dev/null
